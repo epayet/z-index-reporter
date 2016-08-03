@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var reporter = require('../lib/reporter');
+
+program
+  .version('0.0.1')
+  .arguments('<css>')
+  .action(function(css) {
+    console.log(`Parsing ${css}`)
+
+    reporter.reportJsonFromHttp(css)
+      .then(result => console.log(result))
+  })
+  .parse(process.argv);

@@ -1,0 +1,11 @@
+.class1 {
+    z-index: 1;
+}
+
+.class2 {
+    z-index: 2;
+}
+
+.class2-with-z-index-2 {
+    z-index: 2;
+}
