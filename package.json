@@ -1,9 +1,12 @@
 {
   "name": "z-index-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "bin/cli",
-  "files": ["lib/reporter.js", "bin/cli"],
+  "files": [
+    "lib/reporter.js",
+    "bin/cli"
+  ],
   "bin": {
     "z-index-reporter": "bin/cli"
   },
@@ -29,6 +32,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "cssom": "^0.3.1",
+    "request": "^2.74.0",
     "request-promise": "^4.1.0"
   }
 }
