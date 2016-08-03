@@ -1,9 +1,9 @@
 {
   "name": "z-index-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "bin/cli",
-  "files": ["lib/reporter.js"],
+  "files": ["lib/reporter.js", "bin/cli"],
   "bin": {
     "z-index-reporter": "bin/cli"
   },
