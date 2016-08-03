@@ -1,5 +1,7 @@
 # z-index-reporter
 
+Get info about z-index layers in a css file.
+
 ## Installation
 
 `npm install -g z-index-reporter`
@@ -39,7 +41,6 @@ And the output will be:
 }
 ```
 
-You see classes that has a z-index of 1, 2, etc. 
 In that case one class has a z-index of 1, and 2 classes have a z-index of 2.
 
 ## Contributing
