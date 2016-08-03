@@ -1,5 +1,7 @@
 # z-index-reporter
 
+[![Build Status](https://travis-ci.org/epayet/z-index-reporter.svg)](https://travis-ci.org/epayet/z-index-reporter)
+
 Get info about z-index layers in a css file.
 
 ## Installation
