@@ -32,7 +32,7 @@ This css contains:
 
 And the output will be:
 
-```json
+```
 { 
   '1': [ '.class1' ],
   '2': [ '.class2', '.another-class-with-z-index-2' ] 
