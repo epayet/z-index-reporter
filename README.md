@@ -51,8 +51,10 @@ Pull requests and suggestions are welcome!
 
 ### TODO
 
+* Handle duplicates
 * Handle multiple files
 * Handle strings from cli
+* Handle sass, less...
 
 ## License
 
